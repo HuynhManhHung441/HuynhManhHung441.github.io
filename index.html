@@ -4,10 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>HuynhManhHung441</title>
 </head>
 <body>
-    <h1>About me</h1>
+    <div class="container">
+        <div class="avatar">
+            <img src="HMH441.png" alt="avatar">
+        </div>
+        <div class="name">
+            <h1><b>HUỲNH MẠNH HƯNG</b></h1>
+            <div class="specialize">
+                Front-end Intern
+            </div>
+            <ul class="contact">
+                <li>
+                    <i class="fa-solid fa-phone"></i> +84 966 804 441
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i> huynhmanhhung441@gmail.com
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i> <a href="https://huynhmanhhung441.github.io" target="_blank">https://huynhmanhhung441.github.io</a>
+                </li>
+            </ul>
+        </div>
+        <div class="info">
+            <ul>
+                <li><b>Ho Chi Minh City University of Technology</b></li>
+                <li>Electrical and Electronics Engineering</li>
+                <li>Department of Telecommunications</li>
+            </ul>
+        </div>
+        <div class="intro">
+            <h2>About me</h2>
+            I started learning programming with Python. After that, I worked for <a href="https://www.cot.ai/" target="_blank">COTAI</a> company as teaching assistant in 2 basic Python courses at <a href="https://vtc.edu.vn/" target="_blank">VTC Academy</a>.In the following period, I have performed some projects about AI topic in my university. Recently, I switched learn about front-end web developer with HTML, CSS and javaScript. 
+        </div>
+        <div class="epx">
+            <h2>Experience</h2>
+            <div class="item">
+                <h4>Intern</h4>
+                <div class="time">
+                    <span>2020-2021</span>
+                    <span><a href="https://www.cot.ai/" target="_blank">COTAI</a> company</span>
+                </div>
+                <div class="des">
+                    Asistant Teaching
+                </div>
+            </div>
+            <div class="item">
+                <h4>Project</h4>
+                <div class="time">
+                    <span>Detection and classification of polyps in colonoscopy images</span>
+                </div>
+                <div class="time">
+                    <span>Vehicle Detection and Counting</span>
+                </div>
+                <div class="time">
+                    <span>Face Recognition</span>
+                </div>
+            </div>
+            <h2 class="Skills">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>javaScript</li>
+                <li>Python</li>
+                <li>Git</li>
+                <li>Docker</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h2>Project</h2>
+            <div class="item">
+                <h4>Detection and classification of polyps in colonoscopy images</h4>
+                <div class="time">
+                    09-12/2022
+                </div>
+                <div class="web">
+                    <a href="https://www.overleaf.com/read/xwjnvpqknyns" target="_blank">Thesis report</a>
+                </div>
+                <div class="role">
+                    Developer
+                </div>
+                <div class="des">
+                    In that thesis topic, I trained neural network models artificial for the purpose of supporting the work of detecting and classifying polyps
+in colonoscopy images of patients. This makes a lot of sense
+important in detecting and preventing colorectal cancer
+It is considered as one of the most dangerous diseases today.
+The TransResUNet network model is trained to detect
+position of the polyps by segmenting the areas of pixels that contain polyp. Model YOLOv7 trained to perform both polyp location detection tasks by zoning the bounding box for each polyp and classifying for the polyps found belonged to one of two categories labeled "adenomatous"
+or "hyperplastic".Besides, a simple interface program was also developed so that people use approach to the program to detect and classify polyps by model YOLOv7 and TransResUNet is more convenient.
+                    <ul>
+                        <li>Collect datasets</li>
+                        <li>Training model by YOLOv7</li>
+                        <li>Write report and presentation </li>
+                        <li>Build UI by Flask</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="item">
+                <h4>Vehicle Detection and Counting</h4>
+                <div class="time">
+                    01-06/2022
+                </div>
+                <div class="web">
+                    <a href="https://www.youtube.com/watch?v=YvkNrkyUcAM" target="_blank">Demo video</a>
+                </div>
+                <div class="role">
+                    Developer
+                </div>
+                <div class="des">
+                    In this project, I collected datasets about trafic vehicles. Then I used it to trained model YOLOv5 to perform both polyp location detection tasks with the bounding box for each vehicle and classifying for types of vehicles. Finally, I used Deepsort to count each vehicle base on specialed directions. 
+                    <ul>
+                        <li>Collect datasets</li>
+                        <li>Training model by YOLOv5</li>
+                        <li>Build UI by Flask</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="item">
+                <h4>Face Recognition</h4>
+                <div class="time">
+                    01-09/2021
+                </div>
+                <div class="role">
+                    Developer
+                </div>
+                <div class="des">
+                    In this topic, I used FaceNet model to embedding features of different faces and perform recognition faces.
+                    <ul>
+                        <li>Collect dataset</li>
+                        <li>Embedding faces</li>
+                        <li>Build Aplication</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
 </body>
 </html>
